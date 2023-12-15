@@ -67,6 +67,8 @@ box-shadow: px 5px 10px rgba(0, 0, 0, 0.566);
 display: flex;
 flex-direction: column;
 text-align: center;
+margin-top: 7px;
+margin-bottom: 7px;
 }
 .form_content {
     display: flex;
