@@ -74,6 +74,7 @@ margin: auto;
 .form_content input, label, select {
     width: 100%;
     border: none;
+    border-radius: 4px;
 }
 .form_content label {
     margin: auto;
@@ -88,7 +89,7 @@ margin: auto;
 }
 .form button {
     margin-top: 10px;
-    padding: 8px;
+    padding: 7px;
     background-color: #A60303;
     cursor: pointer;
     border: none;
@@ -104,7 +105,7 @@ margin: auto;
     background-color: #9c99993f;
     border: #A60303 solid 1px;
     margin-top: 8px;
-    padding: 8px;
+    padding: 6px;
     text-align: center;
     color: #b21411;
     text-decoration: none;
