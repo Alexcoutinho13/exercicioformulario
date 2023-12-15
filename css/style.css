@@ -73,6 +73,7 @@ margin: auto;
 }
 .form_content input, label, select {
     width: 100%;
+    border: none;
 }
 .form_content label {
     margin: auto;
@@ -121,6 +122,7 @@ margin: auto;
 }
 .input_content span {
     font-size: 2em;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    text-align: center;
+    color: #303030;
+    border-radius: 4px;
 }
