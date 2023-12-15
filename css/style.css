@@ -3,7 +3,7 @@
     --cor1: #A60303;
     --cor2: #D93A37;
     --cor3: #e1dbd9bc;
-    --cor4: #cdba29;
+    --cor4: #c3b12d;
     --cor5: #A6B4C1;
 }
 * {
@@ -44,11 +44,9 @@ background-color: #9c99993f;
 border-radius: 10px;
 height: 500px;
 display: flex;
-justify-content: space-around;
 border: 1px solid rgba(0, 0, 0, 0.753);
-box-shadow: px 5px 10px rgba(0, 0, 0, 0.566);
+box-shadow: 6px 5px 20px rgba(0, 0, 0, 0.566);
 }
-
 .form img {
     width: 100px;
 }
@@ -58,7 +56,7 @@ box-shadow: px 5px 10px rgba(0, 0, 0, 0.566);
     width: 30%;
     background-size: cover;
     background-position: center center;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 .form .img_pm {
     width: 75px;
@@ -71,11 +69,55 @@ margin-top: 7px;
 margin-bottom: 7px;
 }
 .form_content {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
+margin: auto;
 }
 .form_content input, label, select {
-    padding: 5px;
     margin-top: 8px;
+    width: 100%;
+}
+.form_content input, select {
+    padding: 6px;
+}
+.form_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form button {
+    margin-top: 10px;
+    padding: 8px;
+    background-color: #A60303;
+    cursor: pointer;
+    border: none;
+    color: black;
+    border-radius: 4px;
+    color: white;
+    font-size: 1.0em;
+}
+.form button:hover {
+    background-color: #e91f1c;
+}
+.forget_pass {
+    background-color: #9c99993f;
+    border: #A60303 solid 1px;
+    margin-top: 8px;
+    padding: 8px;
+    text-align: center;
+    color: #b21411;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.forget_pass:hover {
+    background-color: #e91f1c;
+    color: white;
+}
+.input_content {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+    margin-top: 3px;
+}
+.input_content span {
+    font-size: 2em;
 }

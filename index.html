@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício Formulário</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
         <header>
@@ -22,34 +23,43 @@
             <div class="form">
                 <div class="img_lateral">
                 </div>
-                <div class="form_content">
-                    <div class="form_top">
-                        <img src="imagens/pm.png" alt="PM" class="img_pm">
-                        <img src="imagens/pc.png" alt="PC">
-                        <img src="imagens/cbm.png" alt="CBM">
-                    </div>
-                    <div class="h2_top">
-                        <h2>Sistema Integrado</h2>
-                    </div>
-                    <div class="form_center">
-                        <label for="iusu">Matrícula: 
-                            <input type="text" name="usu" id="iusu">
-                        </label><br>
-                        <label for="isenha">Senha: 
-                            <input type="text" name="senha" id="isenha">
-                        </label><br>
-                            <select name="orgao" id="iorgao">
-                                <option value="select">Selecione...</option>
-                                <option value="pm">Polícia Militar</option>
-                                <option value="pc">Polícia Civil</option>
-                                <option value="cbm">Corpo de Bombeiros</option>
-                                
-                            </select>
-                    </div>
-                    <div class="form_bottom">
-                        ...
+                    <div class="form_content">
+                        <div class="form_top">
+                            <img src="imagens/pm.png" alt="PM" class="img_pm">
+                            <img src="imagens/pc.png" alt="PC">
+                            <img src="imagens/cbm.png" alt="CBM">
+                        </div>
+                        <div class="h2_top">
+                            <h2>Sistema Integrado</h2>
+                        </div>
+                        <div class="form_center">
+                            <div class="input_content"><span class="material-symbols-outlined">
+                                person
+                                </span>
+                                <label for="iusu">
+                                    <input type="text" name="usu" id="iusu">
+                                </label>
                             </div>
-                </div>
+                            <div class="input_content"><span class="material-symbols-outlined">
+                                key
+                                </span>
+                            <label for="isenha">
+                                <input type="text" name="senha" id="isenha">
+                            </label>
+                            </div>
+                                <select name="orgao" id="iorgao">
+                                    <option value="select">Selecione...</option>
+                                    <option value="pm">Polícia Militar</option>
+                                    <option value="pc">Polícia Civil</option>
+                                    <option value="cbm">Corpo de Bombeiros</option>
+                                </select>
+                                <button type="submit">Entrar</button>
+                                <a href="#" class="forget_pass">Esqueci minha senha</a>
+                        </div>
+                        <div class="form_bottom">
+                            ...
+                                </div>
+                    </div>
     </div>
         </section>
 </body>
