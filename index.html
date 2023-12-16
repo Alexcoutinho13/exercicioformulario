@@ -33,34 +33,40 @@
                         <div class="h2_top">
                             <h2>Sistema Integrado</h2>
                         </div>
-                        <div class="form_center">
-                            <div class="input_content"><span class="material-symbols-outlined">
-                                person
-                                </span>
-                                <label for="iusu">
-                                    <input type="text" name="usu" id="iusu" placeholder="Matrícula">
+                        <form action="cadastro.php"  method="post">
+                            <div class="form_center">
+                                <div class="input_content"><span class="material-symbols-outlined">
+                                    person
+                                    </span>
+                                    <label for="iusu">
+                                        <input type="number" name="usu" id="iusu" placeholder="Matrícula" required maxlength="10" minlength="5">
+                                    </label>
+                                </div>
+                                <div class="input_content"><span class="material-symbols-outlined">
+                                    key
+                                    </span>
+                                <label for="isenha">
+                                    <input type="password" name="senha" id="isenha" placeholder="Senha" required maxlength="10" minlength="5">
                                 </label>
+                                </div>
+                                <div class="input_content"><span class="material-symbols-outlined">
+                                    engineering
+                                    </span>
+                                    <select name="orgao" id="iorgao">
+                                        <option value="select">Selecione...</option>
+                                        <option value="pm">Polícia Militar</option>
+                                        <option value="pc">Polícia Civil</option>
+                                        <option value="cbm">Corpo de Bombeiros</option>
+                                    </select>
+                                </div>
+                                    <div class="button">
+                                        <button type="submit">                                    <span class="material-symbols-outlined">
+                                            login
+                                            </span>Entrar</button>
+                                    </div>
+                                    <a href="#" class="forget_pass">Esqueci minha senha</a>
                             </div>
-                            <div class="input_content"><span class="material-symbols-outlined">
-                                key
-                                </span>
-                            <label for="isenha">
-                                <input type="password" name="senha" id="isenha" placeholder="Senha" required maxlength="10" minlength="5">
-                            </label>
-                            </div>
-                            <div class="input_content"><span class="material-symbols-outlined">
-                                engineering
-                                </span>
-                                <select name="orgao" id="iorgao">
-                                    <option value="select">Selecione...</option>
-                                    <option value="pm">Polícia Militar</option>
-                                    <option value="pc">Polícia Civil</option>
-                                    <option value="cbm">Corpo de Bombeiros</option>
-                                </select>
-                            </div>
-                                <button type="submit">Entrar</button>
-                                <a href="#" class="forget_pass">Esqueci minha senha</a>
-                        </div>
+                        </form>
                         <div class="form_bottom">
                             <div class="termos_uso">
                                 <a href="#">Termos de uso</a>

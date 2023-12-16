@@ -13,6 +13,9 @@
     .form {
         width: 70%;
     }
+    .form .img_lateral {
+        width: 40%;
+    }
 }
 @media (max-width:530px) {
     .form .img_lateral {
@@ -21,6 +24,18 @@
     .form {
         width: 80%;
     }
+    .form_content {
+        width: 90%;
+    }
+    .form_top img {
+        width: 85px;
+    }
+    .form .img_pm {
+            width:61px;
+        }
+    .form h2 {ize: 1.3em;
+    }
+        font-s
 }
 @media (max-width:385px) {
     .form_top img {
@@ -34,5 +49,8 @@
     }
     .form {
         width: 100%;
+    }
+    header img {
+        width: 180px;
     }
 }

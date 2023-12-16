@@ -25,7 +25,7 @@ justify-content: center;
 align-items: center;
 }
 header img {
-    width: 200px;
+    width: 250px;
 }
 .titulo {
     text-align: center;
@@ -97,8 +97,12 @@ margin: auto;
     flex-direction: column;
     justify-content: center;
 }
-.form button {
+.form .button {
+    display: flex;
     margin-top: 10px;
+}
+
+.form button {
     padding: 7px;
     background-color: #A60303;
     cursor: pointer;
@@ -107,12 +111,19 @@ margin: auto;
     border-radius: 4px;
     color: white;
     font-size: 1.0em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form button span {
+    margin-right: 3px;
 }
 .form button:hover {
     background-color: #e91f1c;
 }
 .forget_pass {
-    background-color: #9c99993f;
+    background-color: #d8d4d43f;
     border: #A60303 solid 1px;
     margin-top: 8px;
     padding: 7px;
