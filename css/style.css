@@ -39,7 +39,7 @@ section {
     justify-content: center;
 }
 .form {
-width: 70%;
+width: 50%;
 background-color: #9c99993f;
 border-radius: 10px;
 height: 500px;
@@ -71,16 +71,26 @@ margin-bottom: 7px;
 .form_content {
 margin: auto;
 }
+.form_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .form_content input, label, select {
     width: 100%;
     border: none;
-    border-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 .form_content label {
     margin: auto;
 }
 .form_content input, select {
-    padding: 6px;
+    padding: 8px;
+}
+.form_content input {
+    width: 100%;
+    margin: auto;
 }
 .form_center {
     display: flex;
@@ -105,7 +115,7 @@ margin: auto;
     background-color: #9c99993f;
     border: #A60303 solid 1px;
     margin-top: 8px;
-    padding: 6px;
+    padding: 7px;
     text-align: center;
     color: #b21411;
     text-decoration: none;
@@ -118,12 +128,47 @@ margin: auto;
 .input_content {
     display: flex;
     align-items: center;
-    border-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
     margin-top: 3px;
+    background-color: #d8cfcf;
+    border: 1px rgb(194, 194, 194) solid;
 }
 .input_content span {
-    font-size: 2em;
+    font-size: 2.0em;
     text-align: center;
-    color: #303030;
-    border-radius: 4px;
+    color: #4b4b4b;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+
+    border-top: 1px solid rgb(194, 194, 194);
+    border-bottom: 1px solid rgb(194, 194, 194);
+    border-left: 1px solid rgb(194, 194, 194);
+}
+.form_bottom {
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: row;
+}
+.termos_uso {
+    display: flex;
+}
+.termos_uso a {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #434344;
+    padding: 8px;
+    margin-top: 5px;
+}
+.termos_uso a:hover {
+    color: #A60303;
+}
+.footer {
+    background-color: #6e6e6f;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
 }

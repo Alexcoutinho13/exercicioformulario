@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício Formulário</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-query.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
@@ -44,7 +45,7 @@
                                 key
                                 </span>
                             <label for="isenha">
-                                <input type="password" name="senha" id="isenha" placeholder="Senha" required>
+                                <input type="password" name="senha" id="isenha" placeholder="Senha" required maxlength="10" minlength="5">
                             </label>
                             </div>
                             <div class="input_content"><span class="material-symbols-outlined">
@@ -61,10 +62,22 @@
                                 <a href="#" class="forget_pass">Esqueci minha senha</a>
                         </div>
                         <div class="form_bottom">
-                            ...
+                            <div class="termos_uso">
+                                <a href="#">Termos de uso</a>
+                            </div>
+                                
+                                <div class="termos_uso">
+                                    <a href="#">Política de Privacidade</a>
                                 </div>
+                            </div>
+                                    </div>
                     </div>
     </div>
         </section>
+        <footer>
+            <div class="footer">
+                Exercício desenvolvido por Alex Coutinho
+            </div>
+        </footer>
 </body>
 </html>

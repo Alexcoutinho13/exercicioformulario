@@ -1,0 +1,38 @@
+@charset "UTF-08";
+
+@media (max-width:822px) {
+    .form_top img {
+        width: 65px;
+    }
+    .form .img_pm {
+            width: 50px;
+        }
+    .form h2 {
+        font-size: 1.1em;
+    }
+    .form {
+        width: 70%;
+    }
+}
+@media (max-width:530px) {
+    .form .img_lateral {
+        display: none;
+    }
+    .form {
+        width: 80%;
+    }
+}
+@media (max-width:385px) {
+    .form_top img {
+        width: 70px;
+    }
+    .form .img_pm {
+            width: 52px;
+        }
+    .form h2 {
+        font-size: 1.3em;
+    }
+    .form {
+        width: 100%;
+    }
+}
